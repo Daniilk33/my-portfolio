@@ -1,0 +1,36 @@
+.home {
+    background-image: url('./assets/home-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white; /
+  }
+  
+  .about {
+    background-color: #f0f8ff; 
+    height: 100vh;
+  }
+  
+
+  .projects {
+    background-image: url('./assets/projects-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+  }
+  
+ 
+  .services {
+    background-color: #fafad2; 
+    height: 100vh;
+  }
+  
+
+  .contact {
+    background-image: url('./assets/contact-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+  }

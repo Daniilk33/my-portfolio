@@ -1,0 +1,51 @@
+/* 
+  File Name: AboutDaniil.css
+  Student Name: Daniil Konishchev
+  Student ID: 300735304
+  Date: September 29, 2024
+*/
+
+
+
+
+.bubble-wrap-text {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bubble-wrap-text:hover {
+    background-color: #ffe066; /* Changes the background color on hover */
+    transform: scale(1.05); /* zoom effect */
+  }
+  
+  .bubble-wrap-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(circle, #ffffff 10%, transparent 20%);
+    background-size: 30px 30px;
+    opacity: 0.3;
+    pointer-events: none; 
+    z-index: -1; /* Ensure the bubbles are behind the text */
+  }
+  
+  .Daniil {
+    text-align: center;
+    padding: 50px;
+    max-width: 800px; /* Set a max width to constrain the text */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word; /* Ensure long words break properly */
+  }
+  

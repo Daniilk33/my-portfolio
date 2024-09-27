@@ -1,0 +1,72 @@
+/* 
+  File Name: Navbar.css
+  Student Name: Daniil Konishchev
+  Student ID: 300735304
+  Date: September 29, 2024
+*/
+
+
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #09a581;
+  padding: 1rem 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  gap: 2rem;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #b3b820;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #070777;
+}
+
+/* Mission Statement Styling */
+.mission-statement {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff6f61;
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.5;
+  margin-top: 20px; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mission-statement:hover {
+  background-color: #ff6f61;
+  color: #ffffff;
+}

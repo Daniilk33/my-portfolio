@@ -1,0 +1,32 @@
+/* 
+  File Name: Home.css
+  Student Name: Daniil Konishchev
+  Student ID: 300735304
+  Date: September 29, 2024
+*/
+
+
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .mission-statement {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6f61;
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.5;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .mission-statement:hover {
+    background-color: #ff6f61;
+    color: #ffffff;
+  }
+  

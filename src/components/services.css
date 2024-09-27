@@ -1,0 +1,49 @@
+/* 
+  File Name: Services.css
+  Student Name: Daniil Konishchev
+  Student ID: 300735304
+  Date: September 29, 2024
+*/
+
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .service-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background-color: #e8f0fe; /* Light background color on hover */
+  }
+  
+  .service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .service-section h2 {
+    font-size: 24px;
+    color: #004080; /* Dark blue for the headers */
+    margin-bottom: 10px;
+  }
+  
+  .service-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
